@@ -1,11 +1,17 @@
+[build-system]
+requires = ["setuptools>=69", "wheel", "build"] 
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "easyfind"
 version = "0.1.0"
-description = "Add your description here"
+description = "Find your files easily!"
 readme = "README.md"
 requires-python = ">=3.14.0"
-dependencies = [
-    "setuptools>=80.9.0",
-    "twine>=6.2.0",
-    "wheel>=0.45.1",
+license-files = ["LICENSE"]
+
+authors = [
+    {name = "peter2500zz", email = "2797880090@qq.com"},
 ]
+
+dependencies = []
